@@ -1,0 +1,1 @@
+input();a = sorted(list(set(map(int, input().split()))));print(a[1] if len(a) != 1 else "NO")
