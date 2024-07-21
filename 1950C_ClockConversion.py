@@ -1,0 +1,2 @@
+for _ in range(int(input())):
+    time = input(); print("0" if len(str(int(time[:2]) % 12)) == 1 and int(time[:2]) % 12 != 0 else "", int(time[:2]) % 12 if int(time[:2]) % 12 != 0 else "12", time[2:], sep = "", end = " PM\n" if int(time[:2]) > 11 else " AM\n")
