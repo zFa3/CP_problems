@@ -1,0 +1,1 @@
+print(str(set([1, 2, 3]).difference(set(map(int, input().split()))))[1])
