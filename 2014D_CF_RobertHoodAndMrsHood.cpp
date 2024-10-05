@@ -57,7 +57,7 @@ void solution(){
 }
 
 signed main(){
-    // zFa3
+    zFa3
     int x;
     cin >> x;
     while (x--){
