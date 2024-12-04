@@ -1,13 +1,13 @@
-// zFa3 and ZZ_ was here
+// User : zFa3 and ZZ_
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
 
-#define definitely_neccessary_code ios::sync_with_stdio(0); cin.tie(0);
-#define debug(x) cout << x << "\n";
 int ROWS, COLS;
+
 vector<pair<int,int>> cat_locations;
 map<pair<int, int>, int> solved_locations;
+
 int solve(int x, int y){
     pair<int, int> key = make_pair(x, y);
     // x and y are our current coordinates
@@ -44,7 +44,6 @@ int solve(int x, int y){
 }
 
 signed main(){
-    definitely_neccessary_code;
     // take in rows and columns
     cin >> ROWS >> COLS;
     // create variables number of cats and 2 temporary variables
