@@ -1,0 +1,1 @@
+print("Is an anagram." if sorted(input().replace(" ", "")) == sorted(input().replace(" ", "")) else "Is not an anagram.")
