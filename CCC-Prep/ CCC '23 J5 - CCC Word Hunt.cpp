@@ -85,18 +85,6 @@ void dfs(int currentX, int currentY, int letterCount, vector<vector<char>> &grid
 
 signed main(){
     ios_base::sync_with_stdio(false); cin.tie(NULL);
-    /*
-NATURE
-6
-9
-N A T S F E G Q N
-S A I B M R H F A
-C F T J C U C L T
-K B H U P T A N U
-D P R R R J D I R
-I E E K M E G B E
-    */
-
     cin >> word;
     cin >> height >> width;
     vector<vector<char>> grid(height, vector<char>(width));
